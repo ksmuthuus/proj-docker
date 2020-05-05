@@ -8,4 +8,4 @@ WORKDIR /usr/local/bin/
 
 COPY test-program.jar .
 
-CMD ["/bin/bash"]
+CMD ["java","-jar","test-program.jar"]
